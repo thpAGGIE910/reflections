@@ -18,6 +18,13 @@ separate the files into multiple commits.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+The staging area can be used to have one commit per logical change by only adding the files that
+were associated with the change to the staging area. When the commit is executed, only those
+files in the staging area will be associated with the commit. Any files that are not a part 
+of the logical change, but which have been modified, will be listed as modified files that need
+to be committed. git diff and git diff --staged can be used to make sure that only the files
+that the user wants as part of the change to be committed.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
