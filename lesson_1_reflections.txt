@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug tat was introduced?
+
+It was very easy to locate the difference between the two files. Even though they are both
+quite long files (over 1000 LOC), the output only displays the lines that have been changed.
+Reviewing the changes was easy, and within a few seconds, I was able to find the typo. Diff
+was very easy to use and was very fast to find ALL the differences in the files.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long
+term?
+
+If you know the whole history of a file, you can see how the program was developed, which 
+can give some insight into how the programmer defined the problem and the assumptions that
+were made. Also, the refinements and refactoring can be seen as well. This might also show
+where possible bugs were introduced into the program and possible solutions for fixing the
+bugs. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs 
+having versions automatically saved, like Google Docs does?
+
+The major pro of manual commits is that the programmer has control of when the commit happens.
+This means that the programmer can work on a feature or other piece of code, test it, and, when
+cofortable that the feature works the way it should, commit it. Also, the programmer can give a 
+meaningful description of what changed over the course of work that led to the commit, which helps
+in debugging and maintenance of the code base. This in contrast to the automatic commit which might
+"commit" the changes on code that doesn't work correctly. The major con of manual committing is
+the idea of remembering to commit and possible loss of work. If the programmer does not commit and
+the computer crashes, the work is lost (assuming that the file is not saved locally). The programmer
+can also forget to commit and work on several features or bug fixes, which could lead to a situation
+where the changes that are reflected in the commit might become too large.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while
+others, like Google Docs, treat each file separately?
+
+The reason VCS like git allow saving multiple files in one commit is that they are coding oriented.
+In most programming projects, the source files depend on one another. Implementing a new feature
+often requires changing multiple files. Naturally saving the PROJECT state, which relies on multiple
+file states, would necessarily require tracking of multiple files across commits.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log can be used to see when a change was made, along with a description of the change. 
+git diff can be used to see the actual changes that were made to files (additions, deletions and
+modifications) since the last commit.
+
+How might using version control make you more confident to make changes that could break something?
+
+Because all the changes are tracked between different versions, those changes can be reverted or
+undone if a new change breaks the application. This instills confidence to experiment and refactor
+the code because any breaking changes in the code can be reverted, leaving the application in a
+working state.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git for all the programming projects
+
