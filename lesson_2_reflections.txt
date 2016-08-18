@@ -28,6 +28,13 @@ that the user wants as part of the change to be committed.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches are helpful if the programmer is adding a new feature to the project or an altering
+the working version of the project in some way. Branches help by creating another version of 
+the project. If the programmer switches to the new branch and, during the course of modfiying
+the branched version, breaks the project, the breaking change only affects the branched version;
+the master branch (which hopefully has a working version of the project) will be unaffected and
+should run normally. 
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
