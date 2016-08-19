@@ -33,9 +33,11 @@ the working version of the project in some way. Branches help by creating anothe
 the project. If the programmer switches to the new branch and, during the course of modfiying
 the branched version, breaks the project, the breaking change only affects the branched version;
 the master branch (which hopefully has a working version of the project) will be unaffected and
-should run normally. 
+should run normally.
 
 How do the diagrams help you visualize the branch structure?
+
+The diagrams help be displaying the develpopment path(s) that exist in the project.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
