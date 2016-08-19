@@ -13,7 +13,14 @@ or bugs in the version that is currently being worked on.
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Forks are a version of someone else's repository which the programmer wants to elaborate on, giving
+credit to the original developer for their contributions. Forks are used if the developer does
+not have permission to change the forked project's original version. A clone is analogous to a fork,
+but with the added benefit of being able to modify the original version. A branch is a separate version
+of the current fork or cloned project that is currently being worked on. A branch should be used to
+further develop a project. A clone should be used if the developer has permission to modify the
+original version. A fork should be used to create a separate project that uses another developer's
+code as a starting point, giving credit to the original developer.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
