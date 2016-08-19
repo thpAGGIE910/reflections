@@ -31,7 +31,8 @@ local copy is out of sync with the master.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+I would probably use a shared folder of some sort and invite other programmers to edit that folder.
+Git definitely seems easier, though.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
