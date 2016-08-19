@@ -37,4 +37,6 @@ Git definitely seems easier, though.
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+I would make changes in a separate branch if I was not sure if the changes I was making were going 
+to break the project. I would also use a separate branch when adding a new feature or a major
+change to the project. I would work on the master only if it was a personal project.
