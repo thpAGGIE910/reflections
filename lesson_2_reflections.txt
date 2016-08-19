@@ -42,5 +42,13 @@ The diagrams help be displaying the develpopment path(s) that exist in the proje
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches together brings all the changes from each branch together to create a new
+main branch with the features, bug fixes, etc. from each branch included. This allows multiple
+programmers to work on different parts of the project at the same time. Once the programmer is
+confident that the feature or fix works, the work can be joined with the existing code base
+to incorporate the work into the main project. The diagram is represented that way because it
+shows the divergence between the main code base and the additional feature that is being
+worked on in the branch.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
